@@ -1,4 +1,4 @@
-from parts import *
+from greatswords import *
 
 def main():
     print(WHR)
