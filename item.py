@@ -26,3 +26,9 @@ class Weapon():
         for key, value in self.materials.items():
             mtr_string += f"{key} x{value}, "
         return f"{self.name}, {self.type}, Rarity {self.rarity}, Tree: {self.tree}, Costs: {mtr_string}{self.cost}z"
+    
+def get_item_names(list):
+    names = []
+    for item in list:
+        names.append(item.name)
+    return names

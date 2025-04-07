@@ -1,5 +1,5 @@
 from abbreviations import *
-from item import Weapon
+from item import Weapon, get_item_names
 
 #Expedition Tree
 HBI = Weapon(
@@ -968,3 +968,80 @@ GJB = Weapon(
         "Commission Ticket": 2
     }
 )
+
+gs_collection = [
+    HBI,
+    HBII,
+    HBIII,
+    HBIV,
+    HBV,
+    ESPB,
+    AWI,
+    AWII,
+    WHR,
+    BSI,
+    BSII,
+    BSIII,
+    RAV,
+    JDI,
+    PRM,
+    QEI,
+    QEII,
+    QEIII,
+    QEIV,
+    FIB,
+    PBI,
+    PBII,
+    PBIII,
+    PBIV,
+    DET,
+    BBI,
+    BBII,
+    BBIII,
+    BBIV,
+    BOS,
+    NKI,
+    NKII,
+    ABK,
+    IBI,
+    IBII,
+    IBIII,
+    IMB,
+    NGSI,
+    NGSII,
+    PRD,
+    DFI,
+    DFII,
+    DFIII,
+    FED,
+    GVGI,
+    GVGII,
+    GSL,
+    VGI,
+    STL,
+    DGI,
+    DGII,
+    GRU,
+    CDI,
+    CDII,
+    ROD,
+    SFI,
+    FUG,
+    SLI,
+    SLII,
+    POK,
+    VBI,
+    VBII,
+    SIEG,
+    RWI,
+    RAF,
+    SCHTNI,
+    DUS,
+    FSI,
+    FSII,
+    FRS,
+    JBI,
+    GJB
+]
+
+gs_names = get_item_names(gs_collection)
